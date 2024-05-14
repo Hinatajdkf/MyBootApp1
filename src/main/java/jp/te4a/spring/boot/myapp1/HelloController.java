@@ -14,4 +14,10 @@ public class HelloController
 	public String index() {
 		return "Hello, Spring Boot!";
 	}
+
+	@RequestMapping("/")
+	public String sato() {
+		return "Sato desu!";
+	}
+	
 }
